@@ -17,7 +17,7 @@ jobs:
         pnpm:
           - 9.15.5
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - macos-latest
           - windows-latest
 
@@ -61,7 +61,7 @@ jobs:
         pnpm:
           - 9.15.5
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - macos-latest
           - windows-latest
 
@@ -96,7 +96,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - windows-latest
 
     steps:
@@ -140,7 +140,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - macos-latest
           - windows-latest
         version:
@@ -177,7 +177,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - macos-latest
           - windows-latest
         version:
@@ -214,7 +214,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - macos-latest
           - windows-latest
         version:
@@ -266,7 +266,7 @@ jobs:
         pnpm:
           - 9.15.5
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
           - macos-latest
           - windows-latest
         run_install:
