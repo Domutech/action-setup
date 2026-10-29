@@ -10,3 +10,5 @@ tmp.*
 temp.*
 .pnpm-store
 .claude
+.mcp.json
+.mcp.json.lock
